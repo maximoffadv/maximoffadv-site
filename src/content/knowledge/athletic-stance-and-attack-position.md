@@ -153,7 +153,7 @@ This creates a mechanically efficient configuration for maintaining a forward-in
 
 ![Side-view biomechanical illustration of a motorcycle attack position showing hip-hinge mechanics, neutral spinal alignment, bent knees, forefoot loading on the footpegs, and controlled separation of upper- and lower-body movement.](https://github.com/maximoffadv/maximoffadv-site/blob/main/public/images/mx-rally-attack-position-side-view.png.png))
 
-![Front-view biomechanical illustration of a motorcycle attack position showing symmetrical lower-limb engagement, pelvic stabilization, knee contact with the motorcycle, and independent upper-body positioning for precise steering control.]( /images/knowledge/motorcycle-attack-position-front-view.png)
+![Front-view biomechanical illustration of a motorcycle attack position showing symmetrical lower-limb engagement, pelvic stabilization, knee contact with the motorcycle, and independent upper-body positioning for precise steering control.](https://github.com/maximoffadv/maximoffadv-site/blob/main/public/images/motocross-rally-adv-attack-position-front.png.png)
 
 The Attack Position uses the same fundamental principles:
 
