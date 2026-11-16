@@ -1353,4 +1353,3 @@ Original author: Alexey Maximoff.
 Modifications: Structural editing, technical reorganization, and expansion of the comparative biomechanical analysis across Motocross, Rally, and Adventure riding.
 
 Original publication:
-https://wopsadv.com/comparative-analysis-of-the-athletic-stance-and-the-motocross-attack-position-biomechanical-parallels-the-role-of-the-posterior-chain-and-the-technical-nature-of-sport-postures/
