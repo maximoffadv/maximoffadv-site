@@ -17,9 +17,8 @@ Choosing a location for off-road training on a heavy adventure or dual-sport mot
 
 - **Location on Map:** [Bansko, Bulgaria on Google Maps](https://maps.google.com/?q=41.8383,23.4885) (`41.8383° N, 23.4885° E`)
 
-<!-- TODO: Replace with hero photo of Bansko town framed by the surrounding mountains -->
-![Panoramic view of Bansko in the valley surrounded by the Rila, Pirin, and Rhodope mountains](/images/bansko-valley-overview.jpg)
-*Bansko sits at the junction of three mountain ranges, offering immediate access to varied terrain and full town infrastructure.*
+![Pirin Street in Bansko, Bulgaria, with a snow-capped Pirin mountain peak rising in the background](/images/bansko-pirin-street-snow-peak.jpg)
+*Pirin Street in Bansko with the Pirin mountain range in the background—full town infrastructure right at the base of the mountains.*
 
 ---
 
