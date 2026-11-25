@@ -1,12 +1,12 @@
 ---
 title: "Off-Road Control for Heavy Adventure & Dual-Sport Riders"
-description: "1-on-1 coaching and private group off-road training (up to 5 riders) on your own motorcycle. Motocross biomechanics adapted for safe, low-fatigue multi-day adventure travel."
-slug: "training-and-rides"
+description: "1-on-1 coaching and private group off-road training (up to 5 riders) on your own motorcycle in Bansko, Bulgaria. Motocross biomechanics adapted for safe, low-fatigue adventure riding."
+slug: "home"
 location: "Bansko, Bulgaria (Rhodope & Rila Mountains)"
 audience: "Dual-sport and heavy adventure riders (35+)"
-groupPolicy: "1-on-1 or pre-formed private groups (max 5 riders)"
+groupPolicy: "1-on-1 or pre-formed private groups (max 5 riders) for core coaching, plus bi-weekly open practice rides"
 bikePolicy: "Client's own motorcycle"
-lastUpdated: "2026-11-21"
+lastUpdated: "2026-11-25"
 ---
 
 # Off-Road Control for Heavy Adventure & Dual-Sport Riders
@@ -15,16 +15,19 @@ lastUpdated: "2026-11-21"
 
 You don’t need to muscle a 220-kg adventure bike through rough terrain. When your skeletal structure, foot-peg weighting, and bar control work with the motorcycle instead of against it, fatigue drops and traction becomes predictable.
 
-I offer **1-on-1 coaching and private group training (up to 5 riders)** on your own motorcycle—from closed-ground fundamentals to multi-day mountain rides. No mixed groups, no artificial adrenaline, and no travel-agency commissions. Just practical technique built for riders who want to go further and arrive intact.
+I offer **1-on-1 coaching and private group training (up to 5 riders)** on your own motorcycle in Bansko, Bulgaria—from closed-ground fundamentals to multi-day mountain field coaching. No mixed groups of strangers, no artificial adrenaline, and no travel-agency commissions. Just practical technique built for riders who want to go further and arrive intact.
 
-- [Book a Session / Discuss Your Goals](#discuss-your-goals--check-availability)
-- [Explore Training Formats ↓](#training--riding-formats)
+- [Discuss Your Goals & Check Availability](/contact)
+- [Explore Training & Riding Formats](/training-and-rides)
+
+![Female rider riding a Suzuki DR650 dual-sport motorcycle along a mountain trail with mountain peaks in the background](./hero-dr650-mountains.jpg)
+*Control over brute force: riding a Suzuki DR650 on mountain terrain—balance and body mechanics make heavy dual-sport riding predictable.*
 
 ---
 
 ## Who This Is For
 
-This program is designed for adult riders (35+) who ride their own dual-sport or heavy adventure motorcycles and value mechanical sympathy, physical longevity, and predictable control over reckless speed.
+This program is built primarily for adult riders (35+)—though riders of all ages are welcome—who ride their own dual-sport or heavy adventure motorcycles and value mechanical sympathy, physical longevity, and predictable control over reckless speed.
 
 ### 1. Street Riders Transitioning to Off-Road
 You are comfortable on pavement, but loose gravel, ruts, off-camber turns, and steep mountain grades make your motorcycle feel top-heavy and unpredictable. You want a structured, logical progression that builds real control from the ground up—without being thrown into terrain you are not ready for.
@@ -34,59 +37,43 @@ You already travel off-pavement, but you finish riding days exhausted—hanging 
 
 ---
 
-## Training & Riding Formats
+## How the Coaching Works
 
 > **1-on-1 or Pre-Formed Private Groups Only (Max 5 Riders)**  
-> I do not assemble mixed groups of strangers. You book either individual coaching or come with your own pre-formed group of up to 5 friends or riding partners. Keeping groups private and familiar eliminates ego-driven pace pressure, keeps the rhythm consistent, and ensures every rider gets direct, individual feedback.
+> For core coaching sessions, I do not assemble mixed groups of strangers. You work either 1-on-1 or bring your own pre-formed group of up to 5 friends or riding partners. Keeping training groups private and familiar eliminates ego-driven pace pressure, keeps the rhythm consistent, and ensures every rider gets direct, individual feedback.
 
-### 1. Training Ground Sessions (1–2 Days)
-**Focus:** Biomechanics, balance, and low-speed control on closed terrain.
-
-Before taking a heavy motorcycle into mountain terrain, your body needs clean, repeatable movement patterns. Working on a dedicated training ground allows us to isolate specific mechanics without traffic or cliff-edge consequences.
+Exact training plans are never locked in blindly in advance. We start with practical diagnostic drills on your own bike to identify real tension points and balance gaps, then progress logically from closed ground to live mountain terrain:
 
 - **Skeletal alignment & attack position:** Locking into the bike with your lower body so your hands stay light on the controls.
-- **Clutch, throttle, and braking modulation:** Precise traction management on loose surfaces and tight turns.
-- **Low-speed balance & pivot turns:** Handling heavy bikes in confined spaces without dabbing or panicking.
-- **Safe bike recovery:** How to lift a fallen 200+ kg motorcycle using proper leverage without injuring your back.
+- **Clutch, throttle, and braking modulation:** Precise traction management on loose rock, ruts, and tight mountain turns.
+- **Low-speed balance & safe bike recovery:** Handling heavy motorcycles in confined spaces and lifting a fallen 200+ kg bike using proper leverage without injuring your back.
+- **Terrain reading & fatigue management:** Maintaining clean posture, breathing, and line selection across steep climbs, descents, and multi-day mountain stages.
 
-### 2. Weekend Training Rides (1–2 Days)
-**Focus:** Applying technique on real mountain trails.
+### Coaching & Riding Formats
+Depending on your timeline and goals, we work across several formats:
+- **Training Ground Sessions (1–2 Days)** & **Weekend Training Rides (1–2 Days)**
+- **Multi-Day Field Coaching (3+ Days)** across the Rhodope and Rila mountains
+- **Custom Multi-Day Training Camps (5–21 Days)** for private groups of 2–5 riders (billed strictly for active training days; rest days are unbilled)
+- **Bi-Weekly Open Practice Rides (5+ Riders)** & **Route Reconnaissance** *(for vetted riders)*
 
-A structured transition from isolated drills to flowing mountain dirt roads, forest tracks, and rocky climbs. We alternate between short technical briefings and real-world trail sections where you apply the mechanics immediately under supervision.
+- [View Full Details on All Training & Riding Formats](/training-and-rides)
 
-- Line selection on loose rock, ruts, and eroded mountain tracks.
-- Body position and braking control on steep, sustained climbs and descents.
-- Managing energy and breathing across a full day in the saddle.
+---
 
-### 3. Multi-Day Training Tours (3+ Days)
-**Focus:** Endurance, consistency under fatigue, and real-world expedition riding.
+## Training Base: Bansko, Bulgaria
 
-Technique breaks down when fatigue sets in. Operating primarily across the extensive legal trail networks of the Rhodope Mountains and selected areas of Rila (respecting the strict environmental boundaries of Pirin National Park), we combine genuine off-road travel with daily technical feedback and posture corrections as mileage accumulates.
+All sessions are based in **Bansko**—a mountain valley hub giving direct access to hundreds of kilometers of legal unpaved dirt roads, forest tracks, and technical climbs across the **Rhodope Mountains** and designated sections of **Rila** (strictly respecting Pirin National Park boundaries).
 
-- Maintaining skeletal efficiency on Day 3 and Day 4 when muscles tire.
-- Adjusting riding mechanics for a loaded or semi-loaded adventure bike.
-- Reading changing terrain, weather, and surface grip across long mountain stages.
+After riding, Bansko provides thermal mineral hot springs, sports massage, full repair infrastructure, and independent accommodation across every budget—with zero agency markups.
 
-### 4. Scouting Expeditions *(Vetted Riders Only)*
-**Focus:** Route exploration and off-grid track verification.
-
-These are working reconnaissance rides to map and test new mountain routes—not commercial tours. Conditions are unpredictable: dead ends, fallen timber, ungraded steep sections, and tight technical turnarounds are part of the day.
-
-- **Strict admission:** Open only to vetted riders I have already trained or ridden with, whose bike control, mindset, and mechanical preparation are proven.
+- [Why Bansko: Training Base, Terrain & Rider Logistics](/location-and-logistics)
 
 ---
 
 ## Discuss Your Goals & Check Availability
 
-There is no automated cart or instant booking. Every session starts with a direct conversation to match the format, terrain, and pace to your motorcycle and current skill level.
+There is no automated cart or instant checkout. Every coaching block or mountain training ride starts with a direct conversation to match the format, terrain, and schedule to your motorcycle and current background.
 
-To inquire about dates and coaching rates, send a message with the following details:
-
-1. **Your Name & Country**
-2. **Format:** 1-on-1 coaching or a private group (specify number of riders, up to 5)
-3. **Motorcycles & Tires:** Exact bike model(s) and currently fitted tires (minimum 50/50 off-road tread required for mountain rides)
-4. **Riding Background:** Street experience, off-road experience, and any specific physical constraints (e.g., lower-back or knee issues)
-5. **Preferred Format & Dates:** Training ground (1–2 days), weekend ride (1–2 days), or multi-day tour (3+ days)
-
+- [Go to Inquiry Checklist & Copy-Paste Template](/contact)
 - **Email:** your-email@maximoffadv.com
 - **WhatsApp / Telegram:** +359 ...
