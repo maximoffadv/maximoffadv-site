@@ -6,7 +6,7 @@ location: "Bansko, Bulgaria (Rhodope & Rila Mountains)"
 coordinates: "41.8383, 23.4885"
 audience: "Dual-sport and heavy adventure riders of all ages"
 accommodationPolicy: "Coaching services only — no packaged tours; riders book their own accommodation directly"
-lastUpdated: "2026-11-24"
+lastUpdated: "2026-11-25"
 ---
 
 # Why Bansko: Training Base, Terrain & Rider Logistics
@@ -26,11 +26,11 @@ Choosing a location for off-road training on a heavy adventure or dual-sport mot
 
 One of the main challenges for European riders today is finding legal, uninterrupted unpaved routes. Around Bansko, particularly across the vast forestry and rural road networks of the **Rhodope Mountains** and designated sections of **Rila**, off-road riding is legal and part of everyday local transport.
 
-- **Progressive terrain variety:** Within 15 to 30 minutes from town, we have access to smooth gravel fire roads for building basic confidence, eroded forest tracks, steep rocky climbs, and technical single-track suitable for advanced riders and hard-enduro training.
+- **Progressive terrain variety:** Within 15 to 30 minutes from town, we have access to smooth gravel fire roads for building basic confidence, bumpy unpaved dirt roads, rutted and eroded forest tracks, steep rocky climbs, and technical single-track suitable for advanced riders and hard-enduro training.
 - **Respecting national park boundaries:** While Pirin National Park is strictly off-limits for motorized traffic—a rule we fully respect—the surrounding Rhodope and Rila networks provide hundreds of kilometers of legitimate, varied mountain routes without the risk of fines or conflict with authorities.
 
-![Rider on a classic Honda Africa Twin riding along an unpaved mountain dirt road in the Rhodope Mountains](./africa-twin-rhodope-dirt-road.JPG)
-*Everyday unpaved mountain dirt roads and rural forestry tracks in the Rhodopes—practical, legal terrain for dual-sport and heavy adventure motorcycles.*
+![Rider on a classic Honda Africa Twin riding along a bumpy unpaved mountain dirt road in the Rhodope Mountains](./africa-twin-rhodope-dirt-road.JPG)
+*Bumpy, unpaved mountain dirt roads and rural forestry tracks in the Rhodopes—practical, legal terrain for dual-sport and heavy adventure motorcycles.*
 
 ---
 
@@ -78,6 +78,7 @@ While local rescue and medical services are reliable, mountain evacuation—espe
 
 If you want to check seasonal ground conditions, discuss logistics for arriving with your motorcycle, or ask for practical recommendations on where to stay in Bansko while training, get in touch directly.
 
+- [Discuss Your Goals & Check Availability](/contact)
 - [View Coaching & Training Formats](/training-and-rides)
 - **Email:** your-email@maximoffadv.com
 - **WhatsApp / Telegram:** +359 ...
