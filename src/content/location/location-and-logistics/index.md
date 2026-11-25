@@ -44,10 +44,6 @@ Because Bansko is an established year-round ski and mountain resort, it offers r
 - **Full SPA & sports massage facilities:** Easy access to saunas, steam rooms, and experienced massage therapists who regularly work with skiers, trail runners, and mountain athletes.
 - **Everyday convenience:** Proper restaurants, pharmacies, hardware stores, tire services, and secure parking for vans, trailers, and motorcycles.
 
-<!-- TODO: Replace with photo of thermal mineral springs in Banya/Dobrinishte or mountain recovery view -->
-![Outdoor thermal mineral water pool near Bansko with mountain views](/images/bansko-thermal-recovery.jpg)
-*Natural mineral hot springs in Banya and Dobrinishte—10 to 15 minutes from Bansko—provide practical recovery between training days.*
-
 ---
 
 ## Accommodation & Costs: Independent Booking Policy
