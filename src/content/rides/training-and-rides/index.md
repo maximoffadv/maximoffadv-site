@@ -15,7 +15,7 @@ lastUpdated: "2026-11-25"
 
 Every rider brings a different mix of habits, tension points, physical limits, and motorcycle setup. One rider over-grips the bars; another loses balance on slow turns or overloads the lower back as soon as the surface gets rough. Because real bottlenecks only show up during practical diagnostic drills on the bike, exact training plans are never locked in blindly in advance—we shape and adjust the work on the ground based on what we observe.
 
-![Rider performing a slow-speed figure-eight balance drill in a squat position with feet on the seat of a Honda Africa Twin 750 on a training ground near Bansko](./africa-twin-balance-drill-bansko.jpg)
+![Rider performing a slow-speed figure-eight balance drill in a squat position with feet on the seat of a Honda Africa Twin 750 on a training ground near Bansko](.africa-twin-balance-drill-bansko.JPG)
 *Closed-ground balance progression near Bansko: riding a figure-eight in a squat position (feet on the seat) on a Honda Africa Twin 750. Progressive drills like this eliminate the reflexive death-grip on the handlebars—a primary cause of low-speed drops—while remaining safe for both rider and motorcycle when properly structured.*
 
 > **1-on-1 or Pre-Formed Private Groups Only (Max 5 Riders)**  
