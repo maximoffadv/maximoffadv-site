@@ -20,8 +20,8 @@ I offer **1-on-1 coaching and private group training (up to 5 riders)** on your 
 - [Discuss Your Goals & Check Availability](/contact)
 - [Explore Training & Riding Formats](/training-and-rides)
 
-![Female rider riding a Suzuki DR650 dual-sport motorcycle along a mountain trail with mountain peaks in the background](./hero-dr650-mountains.jpg)
-*Control over brute force: riding a Suzuki DR650 on mountain terrain—balance and body mechanics make heavy dual-sport riding predictable.*
+![Woman standing on the footpegs in an attack position while riding a Suzuki DR650 dual-sport motorcycle on a training ground with the Pirin mountain range in the background](./hero-dr650-mountains.jpg)
+*Closed-ground mechanics in action: riding a Suzuki DR650 on a training ground with the Pirin mountain range behind—body alignment and balance replace brute force.*
 
 ---
 
