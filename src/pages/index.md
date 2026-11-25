@@ -3,7 +3,7 @@ title: "Off-Road Control for Heavy Adventure & Dual-Sport Riders"
 description: "1-on-1 coaching and private group off-road training (up to 5 riders) on your own motorcycle in Bansko, Bulgaria. Motocross biomechanics adapted for safe, low-fatigue adventure riding."
 slug: "home"
 location: "Bansko, Bulgaria (Rhodope & Rila Mountains)"
-audience: "Dual-sport and heavy adventure riders (35+)"
+audience: "Dual-sport and heavy adventure riders of all ages, with specialized coaching for older and mature riders"
 groupPolicy: "1-on-1 or pre-formed private groups (max 5 riders) for core coaching, plus bi-weekly open practice rides"
 bikePolicy: "Client's own motorcycle"
 lastUpdated: "2026-11-25"
@@ -27,7 +27,7 @@ I offer **1-on-1 coaching and private group training (up to 5 riders)** on your 
 
 ## Who This Is For
 
-This program is built primarily for adult riders (35+)—though riders of all ages are welcome—who ride their own dual-sport or heavy adventure motorcycles and value mechanical sympathy, physical longevity, and predictable control over reckless speed.
+This program is open to riders of all ages on dual-sport and heavy adventure motorcycles—with specialized coaching for older and mature riders—who value mechanical sympathy, physical longevity, and predictable control over reckless speed.
 
 ### 1. Street Riders Transitioning to Off-Road
 You are comfortable on pavement, but loose gravel, ruts, off-camber turns, and steep mountain grades make your motorcycle feel top-heavy and unpredictable. You want a structured, logical progression that builds real control from the ground up—without being thrown into terrain you are not ready for.
