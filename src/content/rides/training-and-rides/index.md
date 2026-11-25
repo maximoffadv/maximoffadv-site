@@ -15,10 +15,8 @@ lastUpdated: "2026-11-25"
 
 Every rider brings a different mix of habits, tension points, physical limits, and motorcycle setup. One rider over-grips the bars; another loses balance on slow turns or overloads the lower back as soon as the surface gets rough. Because real bottlenecks only show up during practical diagnostic drills on the bike, exact training plans are never locked in blindly in advance—we shape and adjust the work on the ground based on what we observe.
 
-<!-- TODO: Add ./training-ground-session.jpg to this folder and uncomment:
-![Rider practicing standing body alignment and low-speed balance on a heavy adventure motorcycle during a ground training session](./training-ground-session.jpg)
+![Rider practicing standing body alignment and low-speed control on a motorcycle during a ground training session](./training-ground-session.jpg)
 *Closed-ground diagnostic work: identifying tension points and refining body geometry before heading into mountain terrain.*
--->
 
 > **1-on-1 or Pre-Formed Private Groups Only (Max 5 Riders)**  
 > For core coaching sessions, I do not mix strangers into random groups. You book either individual instruction or bring your own pre-formed group of up to 5 friends or riding partners. Keeping training groups private and familiar keeps the pace consistent, eliminates ego competition, and ensures every rider gets direct, individual feedback.
@@ -36,10 +34,8 @@ Moving from controlled ground work onto real mountain tracks, unpaved dirt and g
 ### 3. Multi-Day Field Coaching (3+ Days)
 Extended mountain riding across the Rhodope Mountains and selected areas of Rila where consistency is tested over several days. Rather than following a rigid script, daily adjustments respond to how your technique holds up under accumulating fatigue and changing terrain.
 
-<!-- TODO: Add ./mountain-trail-coaching.jpg to this folder and uncomment:
-![Coach and riders reviewing line selection on a rocky mountain track in the Rhodope Mountains](./mountain-trail-coaching.jpg)
+![Riders and coaching on a mountain track in the Rhodope Mountains](./mountain-trail-coaching.jpg)
 *Applying ground mechanics on live mountain routes across the Rhodopes.*
--->
 
 ### 4. Custom Multi-Day Training Camps (5–21 Days)
 Built around a pre-formed group of **2 to 5 riders** (often riders with road experience or limited off-road time looking to develop solid dirt control over a longer stay).
