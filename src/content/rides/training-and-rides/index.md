@@ -34,8 +34,8 @@ Moving from controlled ground work onto real mountain tracks, unpaved dirt and g
 ### 3. Multi-Day Field Coaching (3+ Days)
 Extended mountain riding across the Rhodope Mountains and selected areas of Rila where consistency is tested over several days. Rather than following a rigid script, daily adjustments respond to how your technique holds up under accumulating fatigue and changing terrain.
 
-![Riders and coaching on a mountain track in the Rhodope Mountains](./mountain-trail-coaching.jpg)
-*Applying ground mechanics on live mountain routes across the Rhodopes.*
+![Rider on a classic Honda Africa Twin climbing a dusty, loose-gravel and rocky mountain track bordered by pine trees](./africa-twin-rhodope-dirt-road.jpg)
+*Field coaching on loose gravel and rocky mountain climbs: traction management, line choice, and steady body control under real terrain feedback.*
 
 ### 4. Custom Multi-Day Training Camps (5–21 Days)
 Built around a pre-formed group of **2 to 5 riders** (often riders with road experience or limited off-road time looking to develop solid dirt control over a longer stay).
