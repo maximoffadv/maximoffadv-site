@@ -29,7 +29,7 @@ One of the main challenges for European riders today is finding legal, uninterru
 - **Progressive terrain variety:** Within 15 to 30 minutes from town, we have access to smooth gravel fire roads for building basic confidence, eroded forest tracks, steep rocky climbs, and technical single-track suitable for advanced riders and hard-enduro training.
 - **Respecting national park boundaries:** While Pirin National Park is strictly off-limits for motorized traffic—a rule we fully respect—the surrounding Rhodope and Rila networks provide hundreds of kilometers of legitimate, varied mountain routes without the risk of fines or conflict with authorities.
 
-![Rider on a classic Honda Africa Twin riding along an unpaved mountain dirt road in the Rhodope Mountains](./africa-twin-rhodope-dirt-road.jpg)
+![Rider on a classic Honda Africa Twin riding along an unpaved mountain dirt road in the Rhodope Mountains](./africa-twin-rhodope-dirt-road.JPG)
 *Everyday unpaved mountain dirt roads and rural forestry tracks in the Rhodopes—practical, legal terrain for dual-sport and heavy adventure motorcycles.*
 
 ---
