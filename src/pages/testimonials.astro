@@ -1,0 +1,199 @@
+---
+import Layout from "../layouts/Layout.astro";
+import jordanAvatar from "../assets/testimonials/avatars/jordan-yordanov-dancho.jpg";
+import witoldAvatar from "../assets/testimonials/avatars/witold-vic-radecki.jpg";
+import nifontovaAvatar from "../assets/testimonials/avatars/anastasiya-nifontova.jpg";
+import nickAvatar from "../assets/testimonials/avatars/nick-lopalov.jpg";
+
+interface Testimonial {
+  id: string;
+  author: string;
+  role?: string;
+  lang: "BG" | "EN" | "RU";
+  quote: string;
+  avatar?: ImageMetadata;
+  website?: string;
+  websiteLabel?: string;
+}
+
+const testimonials: Testimonial[] = [
+  {
+    id: "jordan-yordanov-dancho",
+    author: "Йордан Йорданов-Данчо",
+    lang: "BG",
+    avatar: jordanAvatar,
+    quote:
+      'Започвам с едно много важно уточнение - все още съм младеж на 55 години и личният ми мотор е "чопър", като имам общо изминати по света към 250-300 хиляди километра... И въпреки, че често се случва да излизам с него извън асфалта, опита ми с оффроуд карането с мотор, подходящ за това клони към 0/нула/zero... И въпреки, че Alexey Maximov знаеше това, не се поколеба да ми предостави мотор и да ме вкара в трасе, което по-късно стана нарицателно за "лек" оффроуд... Началото беше трудно, придружено с едно падане и няколко полягвания на мотора, като в нито един момент Алексей не ми повиши тон... Напротив - всеки път търпеливо и подробно ми обясняваше кога, какво и как да правя, за да се случват нещата, въпреки че забавяхме групата... На няколко пъти ми се искаше просто да се откажа, но с неговото търпение и моя инат, нещата постепенно започнаха да се случват... След 2-3 часа вече се чувствах стабилно на мотора, изправих се даже прав, придобих самочуствието дори да изпреварвам част от групата... И колкото и невероятно да звучи, благодарение на неговите простички напътствия, започнах да виждам и някои дребни грешки в колегите от групата... Споделих му това и при една по-дълга почивка, той проведе нещо като мини-семинар-обучение на цялата група, като всеки откри нещо полезно за себе си... ГОЛЯМО БЛАГОДАРЯ на един ГОЛЯМ ЧОВЕК...!!! Малко са хората, с които бих тръгнал с мотор и към края на света и той е един от тях...!!! 🙂 🙂 🙂',
+  },
+  {
+    id: "witold-vic-radecki",
+    author: "Witold Vic Radecki",
+    lang: "EN",
+    avatar: witoldAvatar,
+    quote: `Last summer I had a pleasure to spend a week of adventure biking in the beautiful Bulgarian country side courtesy of KHL moto.
+I was able to enjoy pretty exclusive tour as apart from me I had the company of Sergei, the boss of KHL Moto and Alexei who in that week of my biking experience taught me more than I could ask for.
+It was established pretty quickly that my ADV biking experience and skill set is rather limited so we all collectively decided to take it easy and invest that time in my improvement.
+Alexei with great patience started from the roots, which is physical exercises, correcting posture, waking up all those necessary muscles for handling the beast on two wheels.
+Then it went to some crucial riding skills on which, with the help of Alexei, I was able to keep improving.
+Aside from the training we spent great time picnicking in the mountains, relaxing in the natural hot springs and cooling down on the nearby river, enjoying a dinner in beautiful quaint little city along the way…
+Oh what a week that was!
+Once again I’d like to express my gratitude to Sergei and particularly Alexei for his holistic approach to this wonderful thing called motor biking. All of us who appreciate the wind therapy on two wheels will understand that and Alexei is definitely one of a kind!`,
+  },
+  {
+    id: "anastasiya-nifontova",
+    author: "Анастасия Нифонтова",
+    role: "Motorcycle racer & Dakar Rally competitor",
+    lang: "RU",
+    avatar: nifontovaAvatar,
+    website: "https://nifontova.com/",
+    websiteLabel: "nifontova.com",
+    quote: "Ты умеешь открывать новые горизонты! Спасибо 🙏🏻",
+  },
+  {
+    id: "nick-lopalov",
+    author: "Nick Lopalov",
+    role: "BMW 1150GSA adventure traveler",
+    lang: "RU",
+    avatar: nickAvatar,
+    quote:
+      "К Лёше в руки я попал с 1150GSA, который при мне видел очень много асфальта, иногда не очень хорошего (Типичная история для гуся😁) и немного грунтовых дорог, да песка на Байкале... и всё. Моих скудных навыков внедорожной езды едва хватало, чтобы проехать несколько сотен метров до места установки палатки, и за эти сотни метров прибавлялась пара седых волос. Короче, когда я приехал в Банско, и Лёша начал вытаскивать меня в горы, ему достался почти чистый лист. За несколько выездов в горы, через пот, слёзы, да ноющие ноги и мышцы жопы, я получил массу впечатлений, богатый опыт падений, и полностью поборол стандартный страх гусевода. В жёсткий оффроад мы не ездили, но рассекать по песчаным и каменистым лесным дорогам, пересекая ручьи, было весело и познавательно. Ездили мы с интеркомом, так что ошибки Лёша корректировал сразу, голосом, и на остановках устраивал разборы полётов. С удовольствием повторил бы на более легком мотоцикле при очередном визите в Болгарию, чтобы получить более серьезные навыки. Спасибо!",
+  },
+];
+---
+
+<Layout title="Testimonials">
+  <section class="testimonials-page">
+    <header class="testimonials-header">
+      <h1>Testimonials</h1>
+      <p>
+        Unedited feedback in the original language from riders on training sessions and mountain rides.
+        Personal social media profiles are not published to protect author privacy.
+      </p>
+    </header>
+
+    <div class="testimonials-list">
+      {testimonials.map((item) => (
+        <article class="testimonial-card">
+          <div class="testimonial-meta">
+            {item.avatar && (
+              <img
+                src={item.avatar.src}
+                alt={item.author}
+                width="56"
+                height="56"
+                loading="lazy"
+                decoding="async"
+                class="testimonial-avatar"
+              />
+            )}
+            <div class="testimonial-author-block">
+              <div class="testimonial-author">{item.author}</div>
+              {item.role && <div class="testimonial-role">{item.role}</div>}
+              <div class="testimonial-submeta">
+                <span class="testimonial-lang">{item.lang}</span>
+                {item.website && (
+                  <>
+                    <span>·</span>
+                    <a
+                      href={item.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="testimonial-link"
+                    >
+                      {item.websiteLabel || item.website}
+                    </a>
+                  </>
+                )}
+              </div>
+            </div>
+          </div>
+          <blockquote class="testimonial-quote">{item.quote}</blockquote>
+        </article>
+      ))}
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .testimonials-page {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+
+  .testimonials-header p {
+    opacity: 0.8;
+    line-height: 1.5;
+  }
+
+  .testimonials-list {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .testimonial-card {
+    border: 1px solid rgba(128, 128, 128, 0.25);
+    border-radius: 12px;
+    padding: 1.25rem;
+  }
+
+  .testimonial-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .testimonial-avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 9999px;
+    object-fit: cover;
+    object-position: top center;
+    flex-shrink: 0;
+  }
+
+  .testimonial-author-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .testimonial-author {
+    font-weight: 600;
+  }
+
+  .testimonial-role {
+    font-size: 0.85rem;
+    opacity: 0.85;
+  }
+
+  .testimonial-submeta {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.8rem;
+    opacity: 0.8;
+  }
+
+  .testimonial-lang {
+    font-size: 0.75rem;
+    opacity: 0.85;
+  }
+
+  .testimonial-link {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .testimonial-link:hover {
+    text-decoration: underline;
+  }
+
+  .testimonial-quote {
+    margin: 0;
+    line-height: 1.6;
+    white-space: pre-line;
+  }
+</style>
