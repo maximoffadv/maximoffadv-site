@@ -1,4 +1,5 @@
 ---
+layout: ../layouts/Layout.astro
 title: "Off-Road Control for Heavy Adventure & Dual-Sport Riders"
 description: "1-on-1 coaching and private group off-road training (up to 5 riders) on your own motorcycle in Bansko, Bulgaria. Motocross biomechanics adapted for safe, low-fatigue adventure riding."
 slug: "home"
@@ -75,5 +76,5 @@ After riding, Bansko provides thermal mineral hot springs, sports massage, full 
 There is no automated cart or instant checkout. Every coaching block or mountain training ride starts with a direct conversation to match the format, terrain, and schedule to your motorcycle and current background.
 
 - [Go to Inquiry Checklist & Copy-Paste Template](/contact)
-- **Email:** your-email@maximoffadv.com
+- **Email:** exhilaration.zone@gmail.com
 - **WhatsApp / Telegram:** +359 ...

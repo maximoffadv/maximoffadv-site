@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Layout.astro
 title: "Discuss Your Goals & Check Availability"
 description: "Direct inquiry for 1-on-1 off-road coaching and private group training (up to 5 riders) in Bansko, Bulgaria. No automated booking—every session starts with a direct conversation."
 slug: "contact"

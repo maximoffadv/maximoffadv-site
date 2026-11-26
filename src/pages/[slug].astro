@@ -1,0 +1,25 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const ridesEntries = await getCollection('rides');
+  const locationEntries = await getCollection('location');
+  const combined = [...ridesEntries, ...locationEntries];
+
+  return combined.map((entry) => {
+    const slug = entry.data.slug || entry.id.split('/')[0];
+    return {
+      params: { slug },
+      props: { entry },
+    };
+  });
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<Layout title={entry.data.title} description={entry.data.description}>
+  <Content />
+</Layout>

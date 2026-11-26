@@ -80,5 +80,5 @@ If you want to check seasonal ground conditions, discuss logistics for arriving 
 
 - [Discuss Your Goals & Check Availability](/contact)
 - [View Coaching & Training Formats](/training-and-rides)
-- **Email:** your-email@maximoffadv.com
+- **Email:** exhilaration.zone@gmail.com
 - **WhatsApp / Telegram:** +359 ...

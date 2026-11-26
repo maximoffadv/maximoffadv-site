@@ -1,0 +1,20 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+const posts = await getCollection('knowledge');
+---
+
+<Layout title="Knowledge — Maximoffadv" description="Articles on off-road biomechanics, skill acquisition, and posture.">
+  <h1>Knowledge</h1>
+  <ul>
+    {posts.map((post) => {
+      const slug = post.data.slug || post.id.split('/')[0];
+      return (
+        <li>
+          <a href={`/knowledge/${slug}`}>{post.data.title}</a>
+        </li>
+      );
+    })}
+  </ul>
+</Layout>
