@@ -15,7 +15,7 @@ lastUpdated: "2026-11-25"
 Off-road coaching on heavy adventure and dual-sport motorcycles only works when the terrain, pace, and physical load match the rider and the machine. Before confirming dates, we discuss your background, your motorcycle setup, and what you actually want to achieve.
 
 - **Base Location:** [Bansko, Bulgaria](https://maps.google.com/?q=41.8383,23.4885) (`41.8383° N, 23.4885° E`)
-- **Email:** your-email@maximoffadv.com
+- **Email:** exhilaration.zone@gmail.com
 - **WhatsApp / Telegram:** +359 ...
 
 ---
