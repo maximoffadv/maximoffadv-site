@@ -4,12 +4,14 @@ import jordanAvatar from "../assets/testimonials/avatars/jordan-yordanov-dancho.
 import witoldAvatar from "../assets/testimonials/avatars/witold-vic-radecki.jpg";
 import nifontovaAvatar from "../assets/testimonials/avatars/anastasiya-nifontova.jpg";
 import nickAvatar from "../assets/testimonials/avatars/nick-lopalov.jpg";
+import saadAvatar from "../assets/testimonials/avatars/saad-al-jabri.jpg";
 
 interface Testimonial {
   id: string;
   author: string;
   role?: string;
-  lang: "BG" | "EN" | "RU";
+  lang: "BG" | "EN" | "RU" | "AR";
+  dir?: "ltr" | "rtl";
   quote: string;
   avatar?: ImageMetadata;
   website?: string;
@@ -57,6 +59,17 @@ Once again I’d like to express my gratitude to Sergei and particularly Alexei 
     avatar: nickAvatar,
     quote:
       "К Лёше в руки я попал с 1150GSA, который при мне видел очень много асфальта, иногда не очень хорошего (Типичная история для гуся😁) и немного грунтовых дорог, да песка на Байкале... и всё. Моих скудных навыков внедорожной езды едва хватало, чтобы проехать несколько сотен метров до места установки палатки, и за эти сотни метров прибавлялась пара седых волос. Короче, когда я приехал в Банско, и Лёша начал вытаскивать меня в горы, ему достался почти чистый лист. За несколько выездов в горы, через пот, слёзы, да ноющие ноги и мышцы жопы, я получил массу впечатлений, богатый опыт падений, и полностью поборол стандартный страх гусевода. В жёсткий оффроад мы не ездили, но рассекать по песчаным и каменистым лесным дорогам, пересекая ручьи, было весело и познавательно. Ездили мы с интеркомом, так что ошибки Лёша корректировал сразу, голосом, и на остановках устраивал разборы полётов. С удовольствием повторил бы на более легком мотоцикле при очередном визите в Болгарию, чтобы получить более серьезные навыки. Спасибо!",
+  },
+  {
+    id: "saad-al-jabri",
+    author: "Saad Al Jabri",
+    role: "A man who knows how to be a true friend · رجل يعرف كيف يكون صديقاً حقيقياً",
+    lang: "AR",
+    dir: "rtl",
+    avatar: saadAvatar,
+    quote: `تعرفت على أليكس خلال رحلة إلى اليونان وألبانيا في أكتوبر 2024، والتي امتدت لعشرة أيام حافلة بالمغامرات والتشويق. سواء كنا نسير في طرق معبدة أو نخوض تحديات الطرق الوعرة، كان أليكس دائماً حاضراً بخبرته وهدوئه.
+تعلمت منه الكثير عن تقنيات القيادة الهجومية في الطرق الوعرة، وتمارين التوازن، إضافة إلى تمارين رياضية مفيدة لدعم هذه المهارات. أليكس ليس فقط مدرباً محترفاً، بل هو أيضاً صديق ودود لا يبخل بالمعلومة، دائم الاستعداد للإجابة عن أي سؤال وتقديم يد العون لمن حوله.
+من المؤكد أنني سأحرص على الانضمام إلى رحلة أخرى معه في المستقبل.💪`,
   },
 ];
 ---
@@ -107,7 +120,13 @@ Once again I’d like to express my gratitude to Sergei and particularly Alexei 
               </div>
             </div>
           </div>
-          <blockquote class="testimonial-quote">{item.quote}</blockquote>
+          <blockquote
+            class="testimonial-quote"
+            dir={item.dir || "ltr"}
+            lang={item.lang.toLowerCase()}
+          >
+            {item.quote}
+          </blockquote>
         </article>
       ))}
     </div>
@@ -195,5 +214,10 @@ Once again I’d like to express my gratitude to Sergei and particularly Alexei 
     margin: 0;
     line-height: 1.6;
     white-space: pre-line;
+  }
+
+  .testimonial-quote[dir="rtl"] {
+    text-align: right;
+    line-height: 1.75;
   }
 </style>
