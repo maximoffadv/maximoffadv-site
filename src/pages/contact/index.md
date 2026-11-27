@@ -24,7 +24,7 @@ Off-road coaching on heavy adventure and dual-sport motorcycles only works when 
 ## Send an Inquiry Directly
 
 <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
-  <input type="hidden" name="access_key" value="ВСТАВЬ_СЮДА_СВОЙ_ACCESS_KEY" />
+  <input type="hidden" name="access_key" value="55f8815a-8486-4527-9559-dd4d2bde70c2" />
   <input type="hidden" name="subject" value="New Inquiry — Maximoffadv" />
   <input type="hidden" name="redirect" value="https://www.maximoffadv.com/contact/thanks" />
   <input type="checkbox" name="botcheck" style="display: none;" />
