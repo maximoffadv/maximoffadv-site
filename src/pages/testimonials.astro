@@ -5,6 +5,27 @@ import witoldAvatar from "../assets/testimonials/avatars/witold-vic-radecki.jpg"
 import nifontovaAvatar from "../assets/testimonials/avatars/anastasiya-nifontova.jpg";
 import nickAvatar from "../assets/testimonials/avatars/nick-lopalov.jpg";
 import saadAvatar from "../assets/testimonials/avatars/saad-al-jabri.jpg";
+import atanasAvatar from "../assets/testimonials/avatars/atanas-arnaudov.jpg";
+import nikolayAvatar from "../assets/testimonials/avatars/nikolay-borisov.jpg";
+import allaAvatar from "../assets/testimonials/avatars/alla-frolova.jpg";
+import cameronAvatar from "../assets/testimonials/avatars/cameron-english.jpg";
+import chavdarAvatar from "../assets/testimonials/avatars/chavdar-tashev.jpg";
+import andreaAvatar from "../assets/testimonials/avatars/andrea-marangia.jpg";
+import ivanAvatar from "../assets/testimonials/avatars/ivan-stalev.jpg";
+import dimitarAvatar from "../assets/testimonials/avatars/dimitar-dimitrov.jpg";
+import maximAvatar from "../assets/testimonials/avatars/maxim-mutafchiev.jpg";
+import uweAvatar from "../assets/testimonials/avatars/uwe-allgauer.jpg";
+import kamenAvatar from "../assets/testimonials/avatars/kamen-angelov.jpg";
+import szkanderaAvatar from "../assets/testimonials/avatars/szkandera-kamil.jpg";
+import angelaAvatar from "../assets/testimonials/avatars/angela-wing.jpg";
+import alexanderAvatar from "../assets/testimonials/avatars/alexander-vasiliev.jpg";
+import dennisAvatar from "../assets/testimonials/avatars/dennis-seliverstoff.jpg";
+
+interface SocialLink {
+  type: "instagram" | "youtube" | "website";
+  url: string;
+  label: string;
+}
 
 interface Testimonial {
   id: string;
@@ -14,8 +35,7 @@ interface Testimonial {
   dir?: "ltr" | "rtl";
   quote: string;
   avatar?: ImageMetadata;
-  website?: string;
-  websiteLabel?: string;
+  links?: SocialLink[];
 }
 
 const testimonials: Testimonial[] = [
@@ -25,7 +45,7 @@ const testimonials: Testimonial[] = [
     lang: "BG",
     avatar: jordanAvatar,
     quote:
-      'Започвам с едно много важно уточнение - все още съм младеж на 55 години и личният ми мотор е "чопър", като имам общо изминати по света към 250-300 хиляди километра... И въпреки, че често се случва да излизам с него извън асфалта, опита ми с оффроуд карането с мотор, подходящ за това клони към 0/нула/zero... И въпреки, че Alexey Maximov знаеше това, не се поколеба да ми предостави мотор и да ме вкара в трасе, което по-късно стана нарицателно за "лек" оффроуд... Началото беше трудно, придружено с едно падане и няколко полягвания на мотора, като в нито един момент Алексей не ми повиши тон... Напротив - всеки път търпеливо и подробно ми обясняваше кога, какво и как да правя, за да се случват нещата, въпреки че забавяхме групата... На няколко пъти ми се искаше просто да се откажа, но с неговото търпение и моя инат, нещата постепенно започнаха да се случват... След 2-3 часа вече се чувствах стабилно на мотора, изправих се даже прав, придобих самочуствието дори да изпреварвам част от групата... И колкото и невероятно да звучи, благодарение на неговите простички напътствия, започнах да виждам и някои дребни грешки в колегите от групата... Споделих му това и при една по-дълга почивка, той проведе нещо като мини-семинар-обучение на цялата група, като всеки откри нещо полезно за себе си... ГОЛЯМО БЛАГОДАРЯ на един ГОЛЯМ ЧОВЕК...!!! Малко са хората, с които бих тръгнал с мотор и към края на света и той е един от тях...!!! 🙂 🙂 🙂',
+      'Започвам с едно много важно уточнение - все още съм младеж на 55 години и личният ми мотор е "чопър", като имам общо изминати по света към 250-300 хиляди километра... И въпреки, че често се случва да излизам с него извън асфалта, опита ми с офроуд карането с мотор, подходящ за това клони към 0/нула/zero... И въпреки, че Alexey Maximoff знаеше това, не се поколеба да ми предостави мотор и да ме вкара в трасе, което по-късно стана нарицателно за "лек" оффроуд... Началото беше трудно, придружено с едно падане и няколко полягвания на мотора, като в нито един момент Алексей не ми повиши тон... Напротив - всеки път търпеливо и подробно ми обясняваше кога, какво и как да правя, за да се случват нещата, въпреки че забавяхме групата... На няколко пъти ми се искаше просто да се откажа, но с неговото търпение и моя инат, нещата постепенно започнаха да се случват... След 2-3 часа вече се чувствах стабилно на мотора, изправих се даже прав, придобих самочуствието дори да изпреварвам част от групата... И колкото и невероятно да звучи, благодарение на неговите простички напътствия, започнах да виждам и някои дребни грешки в колегите от групата... Споделих му това и при една по-дълга почивка, той проведе нещо като мини-семинар-обучение на цялата група, като всеки откри нещо полезно за себе си... ГОЛЯМО БЛАГОДАРЯ на един ГОЛЯМ ЧОВЕК...!!! Малко са хората, с които бих тръгнал с мотор и към края на света и той е един от тях...!!! 🙂 🙂 🙂',
   },
   {
     id: "witold-vic-radecki",
@@ -47,8 +67,13 @@ Once again I’d like to express my gratitude to Sergei and particularly Alexei 
     role: "Motorcycle racer & Dakar Rally competitor",
     lang: "RU",
     avatar: nifontovaAvatar,
-    website: "https://nifontova.com/",
-    websiteLabel: "nifontova.com",
+    links: [
+      {
+        type: "website",
+        url: "https://nifontova.com/",
+        label: "nifontova.com",
+      },
+    ],
     quote: "Ты умеешь открывать новые горизонты! Спасибо 🙏🏻",
   },
   {
@@ -71,6 +96,175 @@ Once again I’d like to express my gratitude to Sergei and particularly Alexei 
 تعلمت منه الكثير عن تقنيات القيادة الهجومية في الطرق الوعرة، وتمارين التوازن، إضافة إلى تمارين رياضية مفيدة لدعم هذه المهارات. أليكس ليس فقط مدرباً محترفاً، بل هو أيضاً صديق ودود لا يبخل بالمعلومة، دائم الاستعداد للإجابة عن أي سؤال وتقديم يد العون لمن حوله.
 من المؤكد أنني سأحرص على الانضمام إلى رحلة أخرى معه في المستقبل.💪`,
   },
+  {
+    id: "atanas-arnaudov",
+    author: "Atanas Arnaudov",
+    lang: "BG",
+    avatar: atanasAvatar,
+    quote:
+      "Горещо препоръчвам! Алексей е един от най-компетентните и с отличен подход инструктори в България!",
+  },
+  {
+    id: "nikolay-borisov",
+    author: "Nikolay Borisov",
+    lang: "BG",
+    avatar: nikolayAvatar,
+    quote:
+      "Лятото на 2024 направих двудневено обучение за офроуд каране под вещото ръководство на Alexey Maximoff. С голямо внимание и индивидуален подход към всеки от нас, разбрах че, съм попаднал на точното място, при точния УЧИТИЛ. Тази година мисля да продължа, като с мен ще бъде и синът ми. Напълно оправдано доверие. Благодаря.",
+  },
+  {
+    id: "alla-frolova",
+    author: "Alla Frolova",
+    lang: "RU",
+    avatar: allaAvatar,
+    links: [
+      {
+        type: "instagram",
+        url: "https://www.instagram.com/frrrka",
+        label: "Instagram",
+      },
+    ],
+    quote: `Леша, благодарю за наши тренировки и общение!
+Ты - замечательный инструктор. И дело даже не только в знании матчасти, методологии (а они на высоте!), а и в твоем отношении к ученикам.
+Я была реально поражена: ты в меня верил больше, чем я сама в себя. Тебе было действительно важно, чтобы я научилась, чтобы у меня получилось. Это бесценно!
+Дополнительным бонусом идет общение с тобой, как с высокоинтеллектуальным человеком с очень обширным кругозором, с которым можно и квантовую физику обсудить и за крипту пообщаться, у тебя отличное чувство юмора, легкость.
+В общем, полный комплект: профессионализм, умение обучать (еще бы, если ты учил людей управлять самолетами!), вера в своих учеников и их поддержка, и прекрасное общение!
+Горячо тебя рекомендую и благодарю тебя еще раз!`,
+  },
+  {
+    id: "cameron-english",
+    author: "Cameron English",
+    lang: "EN",
+    avatar: cameronAvatar,
+    quote:
+      "Alex is a guy you want to ride with, he is inspiring in his knowledge of the tour, his attention to the riders, his encouragement when the trail gets tough. A great conversationalist, multi talented and great sense of humor....in short, a guy I would want by my side in a dark alley or in a tough situation, or just blasting the trails !",
+  },
+  {
+    id: "chavdar-tashev",
+    author: "Chavdar Tashev",
+    role: "Moto Blogger",
+    lang: "BG",
+    avatar: chavdarAvatar,
+    links: [
+      {
+        type: "instagram",
+        url: "https://www.instagram.com/chavdartashev_cht",
+        label: "Instagram",
+      },
+      {
+        type: "youtube",
+        url: "https://www.youtube.com/@CHT_ChavdarTashev",
+        label: "CHT - YouTube",
+      },
+    ],
+    quote: `Алексей е човека от които имате нужда да ви научи на тънкостите на офроуда с тежки и леки офроуд машини. Искате да имате достъп до такъв човек и да черпите познания директно от извора.
+Препоръчвам го с две ръце!`,
+  },
+  {
+    id: "andrea-marangia",
+    author: "Andrea Marangia",
+    lang: "EN",
+    avatar: andreaAvatar,
+    quote:
+      "So many great memories riding together, Alexey! I look forward to hitting some trails together again soon and learn a thing or two from you!",
+  },
+  {
+    id: "ivan-stalev",
+    author: "Ivan Stalev",
+    lang: "BG",
+    avatar: ivanAvatar,
+    quote:
+      "С Алексей имах два от най-полезните ми дни за изучаване на тънкости в карането на мотор, не само офф роуд, но и като цяло! Искрено препоръчвам да прекарате време с него и да се впуснете в практикуването на упражнения, които първо изглеждат невъзможни за изпълнение, а малко по-късно ги правите с лекота. Впечатляващо преживяване! А Алексей е пич! Обяснява добре, показва, търпелив е и времето с него е истинска наслада. Давайте смело!",
+  },
+  {
+    id: "dimitar-dimitrov",
+    author: "Dimitar Dimitrov",
+    role: "Renowned Chef",
+    lang: "BG",
+    avatar: dimitarAvatar,
+    quote: `Само веднъж съм карал с Алексей, направихме невероятен четиричасов off-road, и след това ми даде само 5 съвета. След няколко тренировки, върху това което ме посъветва, вече карам free-stile , със пълен контрол във права позиция. Даже вече се осмелявам да дигам предна при преодоляване на големи препятствия. Карането с Алексей е невероятно, усещаш как за минути минаваш от basic на hard-core, и със малко тренировки, вече всякакви притеснения изчезват и почваш да усещаш само кефа. От едно каране със теб вече съм със 50% по добър във off-road предизвикателствата.
+Както казват китайците, по добре да търсиш правилният учител 5 години, от колкото да учиш 3 със неправилния.
+Алексей е правилният учител за всеки който му стиска до покори всички върхове на 2 гуми.
+Благодаря ти за бързият но безценен урок който ми даде.
+Още се гордея че останах прав на мотора до края.`,
+  },
+  {
+    id: "maxim-mutafchiev",
+    author: "Maxim Mutafchiev",
+    lang: "BG",
+    avatar: maximAvatar,
+    quote:
+      "Съвсем случайно попаднах на първият си урок по офф роуд при Алексей. Никога преди това не бях карал извън асфалта. Той е изключително уравновесен, обяснява много стуктурирано, показва на практика всяко упражнение, като обяснява и идеята зад него, обръща внимание на всеки. Впечатляващото е, че след уроците при него, управляването ми на мотоциклет и по асфалт се подобри чувствително, без да осъзнавам, до сега бях правил фундаментални грешки, които осмислих и работя над коригирането им. Със сигурност ще продължа да напредвам при него.",
+  },
+  {
+    id: "uwe-allgauer",
+    author: "Uwe Allgäuer",
+    role: "Entrepreneur in Bansko · Bansko Nomad Fest Organizer",
+    lang: "EN",
+    avatar: uweAvatar,
+    links: [
+      {
+        type: "website",
+        url: "https://banskonomadfest.com/",
+        label: "banskonomadfest.com",
+      },
+    ],
+    quote:
+      "Highly recommend driver training with Alexey - he is a really offroader and an awesome trainer. I did many rides with him and he always had a few tips and tricks to make it seem so easy to ride offroad!",
+  },
+  {
+    id: "kamen-angelov",
+    author: "Камен Ангелов",
+    lang: "BG",
+    avatar: kamenAvatar,
+    quote:
+      "Имах удоволствието да се запозная с Alexey Maximoff на офроуд тренировка и късметът, че живеем в един и същи град! Роди се приятелство и последваха поредица от тренировки и пътувания. Искрено мога да препоръчам Алексей на всички, които искат да се запознаят с офроуд пътувания, ендуро, пътеки, навигиране, ТЕТ, физическа подготовка и техническа поддърка и подобряване на мотоциклети. Компанията му е приятелска, непринудена, комуникацията директна и стегната! Успех приятелю! Планирам следващото пътуване с теб!",
+  },
+  {
+    id: "szkandera-kamil",
+    author: "Szkandera Kamil",
+    lang: "EN",
+    avatar: szkanderaAvatar,
+    quote:
+      "Such great times riding together, Alexey. I’m really looking forward to getting back on the trails with you soon—and soaking up some of your skills!",
+  },
+  {
+    id: "angela-wing",
+    author: "Angela Wing",
+    lang: "EN",
+    avatar: angelaAvatar,
+    quote:
+      "Alexey Maximoff is such a patient motorcycle trainer! He gave me countless tips about balance, turns and clutch control that I still practice today for big and small motorcycle ridding! Thanks Alexey!",
+  },
+  {
+    id: "alexander-vasiliev",
+    author: "Alexander Vasiliev",
+    role: "Moto Guide at hispania-tours.com",
+    lang: "RU",
+    avatar: alexanderAvatar,
+    links: [
+      {
+        type: "website",
+        url: "https://hispania-tours.com/",
+        label: "hispania-tours.com",
+      },
+      {
+        type: "instagram",
+        url: "https://www.instagram.com/advbike.alex/",
+        label: "Instagram",
+      },
+    ],
+    quote: `С Алексеем мы повели совместно несколько офрроуд маршрутов и туров, а так же тренингов в Болгарии. Могу с уверенностью сказать, что если вы ищете опытного гида по Балканам, вам сюда! Если вы ищете тренера, который научит вас ездить офроуд на больших или маленьких мотоциклах- вам сюда. И тут неважно вы новичок или считает себя уже опытным наездником, все равно научит лучше и поправит ошибки! Если вы ищете человек с душой, индивидуальным подходом и юмором - это ваш человек
+Лех, спасибо за комплекс упражнений, который ты для меня разработал, до сих пор периодически к нему возвращаюсь! Свидимся на дороге! Точнее вне ее`,
+  },
+  {
+    id: "dennis-seliverstoff",
+    author: "Dennis Seliverstoff",
+    lang: "EN",
+    avatar: dennisAvatar,
+    quote:
+      "This one-day off-road training I took a week ago, completely changed how I ride. Fixing my body positioning alone doubled my speed and confidence. The coach is highly skilled and explains things clearly, with drills that really build muscle memory.",
+  },
 ];
 ---
 
@@ -89,34 +283,58 @@ Once again I’d like to express my gratitude to Sergei and particularly Alexei 
         <article class="testimonial-card">
           <div class="testimonial-meta">
             {item.avatar && (
-              <img
-                src={item.avatar.src}
-                alt={item.author}
-                width="56"
-                height="56"
-                loading="lazy"
-                decoding="async"
-                class="testimonial-avatar"
-              />
+              <div class="testimonial-avatar-col">
+                <img
+                  src={item.avatar.src}
+                  alt={item.author}
+                  width="56"
+                  height="56"
+                  loading="lazy"
+                  decoding="async"
+                  class="testimonial-avatar"
+                />
+                {item.links && item.links.length > 0 && (
+                  <div class="testimonial-avatar-links">
+                    {item.links.map((link) => (
+                      <a
+                        href={link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="testimonial-social-btn"
+                        aria-label={`${item.author} — ${link.label}`}
+                        title={link.label}
+                      >
+                        {link.type === "instagram" && (
+                          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                          </svg>
+                        )}
+                        {link.type === "youtube" && (
+                          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
+                            <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+                          </svg>
+                        )}
+                        {link.type === "website" && (
+                          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10" />
+                            <line x1="2" y1="12" x2="22" y2="12" />
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                          </svg>
+                        )}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
             )}
             <div class="testimonial-author-block">
               <div class="testimonial-author">{item.author}</div>
               {item.role && <div class="testimonial-role">{item.role}</div>}
               <div class="testimonial-submeta">
                 <span class="testimonial-lang">{item.lang}</span>
-                {item.website && (
-                  <>
-                    <span>·</span>
-                    <a
-                      href={item.website}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="testimonial-link"
-                    >
-                      {item.websiteLabel || item.website}
-                    </a>
-                  </>
-                )}
               </div>
             </div>
           </div>
@@ -159,9 +377,17 @@ Once again I’d like to express my gratitude to Sergei and particularly Alexei 
 
   .testimonial-meta {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 0.85rem;
     margin-bottom: 0.9rem;
+  }
+
+  .testimonial-avatar-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.45rem;
+    flex-shrink: 0;
   }
 
   .testimonial-avatar {
@@ -173,10 +399,37 @@ Once again I’d like to express my gratitude to Sergei and particularly Alexei 
     flex-shrink: 0;
   }
 
+  .testimonial-avatar-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+  }
+
+  .testimonial-social-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 9999px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    color: var(--accent, inherit);
+    opacity: 0.85;
+    text-decoration: none;
+    transition: opacity 0.15s ease, border-color 0.15s ease;
+  }
+
+  .testimonial-social-btn:hover {
+    opacity: 1;
+    border-color: currentColor;
+  }
+
   .testimonial-author-block {
     display: flex;
     flex-direction: column;
     gap: 0.15rem;
+    padding-top: 0.25rem;
   }
 
   .testimonial-author {
@@ -199,15 +452,6 @@ Once again I’d like to express my gratitude to Sergei and particularly Alexei 
   .testimonial-lang {
     font-size: 0.75rem;
     opacity: 0.85;
-  }
-
-  .testimonial-link {
-    color: var(--accent);
-    text-decoration: none;
-  }
-
-  .testimonial-link:hover {
-    text-decoration: underline;
   }
 
   .testimonial-quote {
